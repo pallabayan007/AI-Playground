@@ -1,0 +1,13 @@
+aiohttp<4.0.0
+openai>=1.0.0,<2.0.0
+anthropic>=0.3.0
+sentence-transformers>=2.2.2
+scikit-learn>=1.2.0
+numpy>=1.24.0
+# aiohttp must be <4.0.0 for compatibility with some OpenAI/httpx-aiohttp vendor adapters
+aiohttp>=3.8.0,<4.0.0
+httpx>=0.23.0
+# Optional: install transformers if you plan to use other embeddings backends
+# transformers>=4.30.0
+truelens-core>=0.2.0
+truelens-providers-openai>=0.2.0
