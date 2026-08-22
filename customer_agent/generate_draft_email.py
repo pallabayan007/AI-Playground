@@ -23,6 +23,7 @@ def generate_support_draft(customer_name, history, sentiment, complaint, context
         top_p=0.95,
         # top_k=40,
         # max_output_tokens=500
+        max_completion_tokens = 500
     )
     
     return response.choices[0].message.content
