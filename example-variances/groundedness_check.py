@@ -32,7 +32,7 @@ reference_context = (
 
 # good_response = "The Sun is at the center of the Solar System."
 # good_response = "The Sun is within the Solar System."
-good_response = "The Solar System consists of the Sun and the objects that orbit it."S
+good_response = "The Solar System consists of the Sun and the objects that orbit it."
 bad_response = "The Solar System has exactly fourteen distinct planets."
 
 print(f"Grounded Score (Valid): {check_groundedness(reference_context, good_response):.4f}")
